@@ -60,6 +60,7 @@ const houseData = [
   },
 ];
 
+// main function fo the Home screen
 const Home = () => {
   const [selectedButton, setSelectedButton] = useState(null);
   const navigation = useNavigation(); // Initialize navigation
@@ -255,10 +256,6 @@ const Home = () => {
     </SafeAreaView>
   );
 };
-
-
-
-
 
 
 // styles

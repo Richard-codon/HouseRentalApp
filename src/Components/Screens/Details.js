@@ -1,12 +1,14 @@
+// import dependencies
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity, SafeAreaView, FlatList, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
+//the main function for the details screen
 const Details = ({ route, navigation }) => {
   // Get the data for the selected house from the route params
   const { houseData } = route.params;
 
-  // Sample gallery images (you can replace this with your actual gallery data)
+  // gallery images 
   const galleryImages = [
     require('../../../assets/house1.jpg'),
     require('../../../assets/house3.jpg'),

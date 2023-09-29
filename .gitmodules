@@ -1,0 +1,3 @@
+[submodule "HouseRentalAppUI"]
+	path = HouseRentalAppUI
+	url = https://github.com/Richard-codon/HouseRentalApp.git
